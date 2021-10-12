@@ -1,9 +1,15 @@
 # GraviCap
 Official code repository for ICCV 2021 paper: <a href="https://openaccess.thecvf.com/content/ICCV2021/html/Dabral_Gravity-Aware_Monocular_3D_Human-Object_Reconstruction_ICCV_2021_paper.html">Gravity-Aware Monocular 3D Human Object Reconstruction</a>.
 
+
 <p align="center">
   <img src="https://4dqv.mpi-inf.mpg.de/static/GraviCap_ICCV2021.gif" alt="animated" />
 </p>
+
+
+> [Gravity-Aware Monocular 3D Human-Object Reconstruction](https://openaccess.thecvf.com/content/ICCV2021/html/Dabral_Gravity-Aware_Monocular_3D_Human-Object_Reconstruction_ICCV_2021_paper.html) <br>
+> Rishabh Dabral, Soshi Shimada, Arjun Jain, Christian Theobalt, Vladislav Golyanik <br>
+> International Conference on Computer Vision (ICCV) 2021
 
 We propose GraviCap - a new approach for joint 3D human-object reconstruction under gravity constraints. Given the 2D trajectory of an object and intrinsics, we recover the 3D trajectory of the object and the  human in absolute metric units along with the  camera tilt. The trajectories are recovered in absolute metric units while also estimating the camera tilt. We also release a new dataset with human and object annotations as a benchmark. This repository comes with a subset of the dataset for demo purposes. Please download the full dataset from the <a href="https://4dqv.mpi-inf.mpg.de/GraviCap/">project page</a>.
 
